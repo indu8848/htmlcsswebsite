@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: initial;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  /* @media (max-width: 768px) {
+    .container-fluid {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      margin-top: 15px;
+    }
+  
+    nav a {
+      margin: 10px 0;
+    }
+  } */
+  
+  .search-container {
+    display: flex;
+    background-color: #fff; /* White background for the search container */
+    padding: 15px; /* Adjust as needed */
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border: 2px solid #3498db; /* Change this color as needed */
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Change this color as needed */
+    border: 2px solid #3498db; /* Match the button border color with search bar color */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+ /* Add this style to your CSS */
+
+  
+  .main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+ 
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+  }
+
+  .card {
+    flex: 0 0 18rem;
+    margin-right: 10px; /* Add some margin between the cards */
+    white-space: normal; /* Allow card content to wrap */
+  }
+
+  
+
+
+
+ 
+ 
+  
+
+

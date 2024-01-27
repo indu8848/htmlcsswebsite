@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+ .header-container {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+    color: #fff;
+    height: 50px;
+ }
+ .logo {
+    font-size: 24px;
+ }
+ 
+ 
+    .login {
+       float: right;
+       color: white;
+       margin-top: 3.5px;
+       padding: 5px;
+    
+    } 
+    nav.navbar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+  
+    nav.navbar ul li {
+        display: inline-block;
+        margin-right: 15px;
+    }
+  
+    /* Additional custom styles */
+    nav.navbar {
+        background-color: #eee;
+        color: #fff;
+        padding: 10px 0;
+    }
+
+
+    .search-bar {
+        margin-left: 1cm;
+     }
+     
+     .search-bar input {
+        margin-right: 5px;
+     }
+     nav.navbar a {
+        color:#333; 
+        margin-right:1cm;
+        text-decoration: none; 
+        padding: 3px; 
+        transition: color 0.3s; 
+     }
+
+     header a{
+      color: white;
+      padding: 1px;
+     }
+
+
+     
+  .wallpaper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px; 
+  }
+
+  .wallpaper-container img {
+    max-width: 100%; 
+    height: auto;
+  }
+
+  .quote-container {
+    padding: 25px; 
+    text-align: left;
+  }
+
+  .quote-container blockquote {
+   margin-left: 10px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    margin: 0; 
+  }
+
+
+.genres-section {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+ }
+ 
+ .genres-section h2 {
+   width: 100%;
+   margin-bottom: 20px;
+ }
+ 
+ .genres-section > div {
+   flex: 0 0 200px;
+   margin: 10px;
+ }
+ 
+ 
+ .genre-card img {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+ }
+
+ 
+ footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 20px 0;
+ }
+ 
+ .footer-content {
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+ 
+ .footer-content p {
+   font-size: 14px;
+ }
