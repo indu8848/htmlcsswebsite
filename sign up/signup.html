@@ -22,39 +22,49 @@
         <div class="card-img-overlay">
             <h5 class="card-title">Sign Up</h5>
             
-            <!-- Sign-up Form -->
-            <form>
+            
+            <form action="/Home/index.html">
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="First Name" required>
                  </div> 
     
                  <div class="mb-3"> 
-                    <input type="text" class="form-control" placeholder="Last Name" required>
+                    <input type="text" class="form-control" placeholder="Last Name" required >
                 </div>
     
                 <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="Email" required>
+                    <input type="email" class="form-control" placeholder="Email" required id="em">
+                    <div id="err2"></div>
                 </div>
     
                 <div class="mb-3">
-                    <input type="password" class="form-control" placeholder="Password" required>
+                    <input type="password" class="form-control" placeholder="Password" required id="pwd">
+                     <div id="passwordStrength"></div>
                 </div>
+                
+                <div class="mb-3">
+                    <input type="tel" class="form-control" placeholder="Phone Number" required id="phone">
+                    <div id="err3"></div>
+                </div> 
     
                 <button type="submit" class="btn btn-primary">Sign Up</button>
+
             </form>
     
             <p class="mt-3"><small>Already have an account? <a href="#">Sign In</a></small></p>
             
         </div>
     </div>
-    
-
-
-
-
 
 
     
+
+
+
+
+
+
+    <script src="/validation.js"></script>
     
 </body>
 </html>

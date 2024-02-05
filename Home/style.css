@@ -133,3 +133,23 @@ body {
  .footer-content p {
    font-size: 14px;
  }
+
+
+ 
+ .button {
+   display: inline-block;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   background-color: #4CAF50; /* Green, change this to your preferred color */
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+
+
+
+
+

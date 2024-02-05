@@ -26,22 +26,27 @@
           <h5 class="card-title">Login your account</h5>
           
           <!-- Login Form -->
-          <form>
+          <form action="/Home/index.html">
             <!-- Email Input -->
             <div class="mb-3">
               <label for="email" class="form-label">Email address</label>
               <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              <span id="err2"></span> 
             </div>
             
             <!-- Password Input -->
             <div class="mb-3">
               <label for="password" class="form-label">Password</label>
               <input type="password" class="form-control" id="password" placeholder="Enter your password">
+              <div id="passwordStrengthDiv"></div>
             </div>
             
-            <!-- Sign In Button -->
-            <button type="button" class="btn btn-primary">Sign In</button> <br> <br>
             
+            <!-- Sign In Button -->
+            <!-- Sign In Button with Link -->
+            <button onclick="return validate()">Log In</button>
+
+
             <!-- Forgot Password -->
             <a href="#">Forgot Password?</a> <br>
             
@@ -62,6 +67,7 @@
 
 
 
+  <script src="/validation2.js"></script>
 
 
 
